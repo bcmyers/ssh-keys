@@ -44,7 +44,6 @@ struct Opt {
 /// Command
 #[derive(Debug, StructOpt)]
 enum Command {
-    #[structopt()]
     Get {
         /// An empty output directory
         outdir: PathBuf,
